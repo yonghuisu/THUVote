@@ -72,11 +72,6 @@
 <div id="main-container" class="container">
     <div class="row">
         
-        <!-- 左侧 nav
-        ================================================== -->
-
-        
-        
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
