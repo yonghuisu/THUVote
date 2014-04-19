@@ -80,20 +80,20 @@
 		<div class="span12">
 			<ul  class="pagination pagination-centered">
 					<li>
-						<a href="#">上一页</a>
+						<a href="<?php echo U('Index/vote2');?>">上一页</a>
 					</li>
 					<li>
-						<a href="#">1</a>
+						<a href="<?php echo U('Index/vote');?>">1</a>
 					</li>
 					<li>
 						<a href="<?php echo U('Index/vote2');?>">2</a>
 					</li>
 					<li>
-						<a href="<?php echo U('Index/vote3');?>">3</a>
+						<a href="#">3</a>
 					</li>
 
 					<li>
-						<a href="<?php echo U('Index/vote2');?>">下一页</a>
+						<a href="#">下一页</a>
 					</li>
 			</ul>
 
@@ -232,20 +232,20 @@
 
 			<ul  class="pagination pagination-centered">
 					<li>
-						<a href="#">上一页</a>
+						<a href="<?php echo U('Index/vote2');?>">上一页</a>
 					</li>
 					<li>
-						<a href="#">1</a>
+						<a href="<?php echo U('Index/vote');?>">1</a>
 					</li>
 					<li>
 						<a href="<?php echo U('Index/vote2');?>">2</a>
 					</li>
 					<li>
-						<a href="<?php echo U('Index/vote3');?>">3</a>
+						<a href="#">3</a>
 					</li>
 
 					<li>
-						<a href="<?php echo U('Index/vote2');?>">下一页</a>
+						<a href="#">下一页</a>
 					</li>
 			</ul>
 		</div>

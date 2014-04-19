@@ -45,7 +45,7 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="<?php echo U('Index/main');?>" style="font-family: '微软雅黑'">首页</a></li>
-				<li><a href="<?php echo U('Index/vote');?>" style="font-family: '微软雅黑'">投票</a></li>
+				<li><a href="<?php echo U('Vote/index');?>" style="font-family: '微软雅黑'">投票</a></li>
 				<li><a href="<?php echo U('Index/show');?>" style="font-family: '微软雅黑'">名人堂</a></li>
 				<li><a href="<?php echo U('Index/message');?>" style="font-family: '微软雅黑'">留言板</a></li>
 			</ul>
