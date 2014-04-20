@@ -1,0 +1,5 @@
+<FORM method="post" action="__URL__/insert">
+学号：<INPUT type="text" name="student_no"><br/>
+姓名：<INPUT type="text" name="student_name"><br/>
+ <INPUT type="submit" value="投票">
+ </FORM>

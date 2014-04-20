@@ -1,0 +1,18 @@
+[ 2014-04-16T23:49:50+08:00 ] ::1 /THUVote/index.php?s=/Home/Index/vote.html
+ERR: 非法操作:vote
+
+[ 2014-04-16T23:50:24+08:00 ] ::1 /THUVote/index.php?s=/Home/Index/vote.html
+ERR: 非法操作:vote
+
+[ 2014-04-16T23:50:29+08:00 ] ::1 /THUVote/index.php?s=/Home/Vote/index.html
+ERR: 无法加载控制器:Vote
+
+[ 2014-04-16T23:50:37+08:00 ] ::1 /THUVote/index.php?s=/Home/Vote/index.html
+ERR: 无法加载控制器:Vote
+
+[ 2014-04-16T23:52:28+08:00 ] ::1 /THUVote/index.php?s=/Home/Vote/index.html
+ERR: 无法加载控制器:Vote
+
+[ 2014-04-16T23:52:38+08:00 ] ::1 /THUVote/index.php?s=/Home/Show/index.html
+ERR: 无法加载控制器:Show
+

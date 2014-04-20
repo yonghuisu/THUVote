@@ -1,0 +1,103 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class VoteController extends Controller{
+	//学生投票
+	public function insert()
+	{
+		$Vote = D('Vote');
+		//将投票信息写入think_vote表
+		if($Vote->create())
+		{
+			$result = $Vote->add();
+			if($result)
+			{
+				$this->success('投票成功');
+			}
+			else
+			{
+				$this->error('写入错误！');
+			}
+		}
+		else
+		{
+			$this->error($Vote->getError());
+		}
+	}
+
+    //学生修改投票信息
+    public function edit($student_no = '')
+    {
+    	$Vote = D('Vote');
+    	$condition['student_no'] = $student_no;
+    	$this->data = $Vote->where($condition)->select();
+    	echo var_dump($this->$data);
+    	$this->display();
+    	
+    }
+    
+    public function update()
+    {
+    	$Vote = D('Vote');
+    	//将投票信息写入think_vote表
+    	if($Vote->create())
+    	{
+    		$result = $Vote->save();
+    		if($result)
+    		{
+    			$this->success('操作成功');
+    		}
+    		else
+    		{
+    			$this->error('写入错误！');
+    		}
+    	}
+    	else
+    	{
+    		$this->error($Vote->getError());
+    	}
+    	
+    }
+    
+    //学生删除投票信息
+    public function delete($student_no='')
+    {
+    	$Vote = D('Vote');
+    	$condition['student_no'] = $student_no;
+    	$Vote->where($condition)->delete();
+    }
+    
+    //统计编号为teacher_id的老师的投票数
+    public function teacherScore($teacher_id)
+    {
+    	$Vote = D('Vote');
+    	$condition['teacher_id'] = $teacher_id;
+    	$Score = $Vote->where($condition)->count();
+   	
+    }
+    //获取所有老师的得票总数
+    public function TotalScore()
+    {
+    	$Vote = D('Vote');
+    	$TotalScore = $Vote->count();
+    }
+    //查看学号为student_no的学生投票信息
+    public function GetMyVoteInfo($student_no='')
+    {
+    	$Vote = D('Vote');
+    	$condition['student_no'] = $student_no;
+    	$Info = $Vote->where($condition)->select();
+    }
+    //获取得票数最多的teacher_num位老师
+    public function GetTopTeacherInfo($teacher_num='')
+    {
+    	$Vote = D('Vote');
+    	$Rank = $Vote->field('count(teacher_id) Score,teacher_name')->group('teacher_name')->order('Score desc')->limit('3');
+    	var_dump($Rank);
+    }
+    
+}
+
+
+
+

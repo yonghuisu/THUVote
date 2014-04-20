@@ -1,0 +1,11 @@
+monitorId,attribute1,attribute2,attribute3,attribute4,time
+org.zend.contentAssistMonitor,phpinfo($what) - standard.php,false,phpi,"1584",1396095323863
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095327389
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.PHPDebugOutput,org.eclipse.php.perspective,"view",1396095335483
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095543084
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095609955
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095631611
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095646780
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095773291
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095832162
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1396095955530

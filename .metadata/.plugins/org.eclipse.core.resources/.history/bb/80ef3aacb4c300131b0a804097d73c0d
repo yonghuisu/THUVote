@@ -1,0 +1,7 @@
+<html>
+
+<volist >
+{$vo.teacher_id}------{$vo.teacher_name}<br/>
+</volist>
+
+ </html>

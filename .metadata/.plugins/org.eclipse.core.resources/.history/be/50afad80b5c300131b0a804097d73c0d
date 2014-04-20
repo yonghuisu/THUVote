@@ -1,0 +1,7 @@
+<html>
+<body>
+<volist name = 'teacher_id' id = 'vo'>
+{$vo.teacher_id}------{$vo.teacher_name}<br/>
+</volist>
+</body>
+ </html>

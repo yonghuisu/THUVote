@@ -1,0 +1,4 @@
+<FORM method="post" action="__URL__/insert">
+
+ <INPUT type="submit" value="投票">
+ </FORM>

@@ -1,0 +1,1 @@
+把该目录下的index.php替换weixin/index.php文件，实现自动审核

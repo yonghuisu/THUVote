@@ -1,0 +1,46 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class MessageController extends Controller{
+	//学生留言
+	public function LeaveMessage()
+	{
+		$Message = D('Message');
+		//将投票信息写入think_vote表
+		if($Message->create())
+		{
+			$result = $Message->add();
+			if($result)
+			{
+				$this->success('留言成功');
+			}
+			else
+			{
+				$this->error('写入错误！');
+			}
+		}
+		else
+		{
+			$this->error($Message->getError());
+		}
+	} 
+    //学生删除留言
+    public function delete($student_no='')
+    {
+    	$Message = D('Vote');
+    	$condition['student_no'] = $student_no;
+    	$Message->where($condition)->delete();
+    }
+  
+    //获取总的留言数
+    public function TotalScore()
+    {
+    	$Message = D('Message');
+    	$TotalScore = $Message->count();
+    }
+       
+}
+
+
+
+

@@ -1,0 +1,32 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class CeleBrityHallController extends Controller{
+	//学生留言
+	public function LeaveMessage()
+	{
+		$Message = D('Message');
+		//将留言信息写入think_message
+		if($Message->create())
+		{
+			$result = $Message->add();
+			if($result)
+			{
+				$this->success('留言成功');
+			}
+			else
+			{
+				$this->error('写入错误！');
+			}
+		}
+		else
+		{
+			$this->error($Message->getError());
+		}
+	} 
+       
+}
+
+
+
+

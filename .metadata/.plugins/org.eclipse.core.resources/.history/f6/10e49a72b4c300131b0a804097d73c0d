@@ -1,0 +1,8 @@
+<FORM method="post" action="__URL__/update">
+
+<volist name = 'data' id = 'vo'>
+{$vo.teacher_id}------{$vo.teacher_name}<br/>
+</volist>
+
+ <INPUT type="submit" value="投票">
+ </FORM>

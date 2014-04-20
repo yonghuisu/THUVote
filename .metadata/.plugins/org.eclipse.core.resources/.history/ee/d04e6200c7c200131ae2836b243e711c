@@ -1,0 +1,187 @@
+  
+<html lang="zh-cn">
+    
+    <head>
+  
+    <meta charset="utf-8">
+    <title>清华大学第14届良师益友</title>
+    <meta name="description" content="清华大学第十四届良师益友">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/LocalProject/Public/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="/LocalProject/Public/Css/style.css" >
+    <link href="/LocalProject/Public/Css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/LocalProject/Public/Css/site.min.css">
+
+	</head>
+	<script>
+		window.moveBy(0,1000);
+	</script>
+	
+	<body class="archive-template" style="">
+		<div class="wrap">	
+			<div class="header" style="background-image: url(/LocalProject/Public/Image/img8.jpg)">
+			  <div class="logoimg">
+			    <a href="__URL__/index" target="_blank"><img src="/LocalProject/Public/Image/img2.jpg" alt="清华大学第14届良师益友" width="78"></a>
+			  </div>
+			  <div class="container">
+			    <div class="row">
+			      <div class="col-xs-12">
+			      	<div class="logotxt">
+			      		<h1><a href="__URL__/index" target="_blank">清华大学第14届良师益友</a></h1>
+			      	</div> 
+			      	<h2 class="text-center">返回首页</h2>
+			      </div>
+			  	</div>
+			  </div>
+			</div>
+				
+			<main class="margintop" role="main">
+		    	<div class="container">
+		        	<div class="row">         
+		            	
+		            	<div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs2">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="__URL__/teacher/" data-toggle="modal" data-target="#myModal">
+		                          <img src="/LocalProject/Public/Image/loader.gif" width="800" height="600" alt="Infinum">
+		                        </a>
+		                        <span class="bs2"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="__URL__/teacher/ " data-toggle="modal" data-target="#myModal">老师1</a></h2>   
+		                    </header>
+		                    <section class="post-content">
+								<p><img src="/LocalProject/Public/Image/img3.jpg" alt="Infinum"></p>
+		                    </section>
+		                </article>
+		            </div>
+		       
+		            <div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs2">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="__URL__/teacher2/"  data-toggle="modal" data-target="#myModal">
+		                          <img src="/LocalProject/Public/Image/loader.gif" width="800" height="600" alt="Fortrabbit" >
+		                        </a>
+		                        <span class="bs2"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="__URL__/teacher2/" data-toggle="modal" data-target="#myModal">老师2</a></h2>
+		                    </header>
+		                    <section class="post-content">
+								<p><img src="/LocalProject/Public/Image/img4.jpg" alt="Fortrabbit"></p>
+		                    </section>
+		                </article>
+		            </div>
+				             
+		            <div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs3">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="../TeacherInfo/TeacherInfo.php" target="_blank">
+		                          <img src="/LocalProject/Public/Image/loader.gif" width="800" height="600" alt="Inc" >
+		                        </a>
+		                        <span class="bs3"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="../TeacherInfo/TeacherInfo.php">老师3</a></h2>
+		                    </header>
+		                    <section class="post-content">                        
+								<p><img src="/LocalProject/Public/Image/img5.jpg" alt="Inc"></p>
+		                    </section>
+		                </article>
+		            </div>
+		             
+		            <div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs2">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="../TeacherInfo/TeacherInfo.php" target="_blank">
+		                          <img src="/LocalProject/Public/Image/loader.gif" width="800" height="600" alt="ooomf" >
+		                        </a>
+		                        <span class="bs2"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="../TeacherInfo/TeacherInfo.php">老师4</a></h2>
+		                    </header>
+		                    <section class="post-content">                       
+								<p><img src="/LocalProject/Public/Image/img6.jpg" alt="ooomf"></p>
+		                    </section>
+		                </article>
+		            </div>
+		
+		            <div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs3">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="../TeacherInfo/TeacherInfo.php" target="_blank">
+		                          <img src="http://static.bootcss.com/expo/img/d/f0/ccdc7408aebd1b10b8c17768b3575.jpg" width="800" height="600" alt="Flywheel" >
+		                        </a>
+		                        <span class="bs3"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="../TeacherInfo/TeacherInfo.php">老师5</a></h2>
+		                    </header>
+		                    <section class="post-content">                        
+								<p><img src="/ProjectOne/assets/img/img7.jpg" alt="Flywheel"></p>
+		                    </section>
+		                </article>
+		            </div>
+			             
+		            <div class="col-xs-12 col-md-6 col-lg-6">
+		                <article class="post tag-bs2">
+		                    <section class="post-featured-image">
+		                        <a class="thumbnail" href="../TeacherInfo/TeacherInfo.php" target="_blank">
+		                          <img src="http://static.bootcss.com/expo/img/e/83/0a2f303d83851e262881ff4e4924a.jpg" width="800" height="600" alt="Sentry" >
+		                        </a>
+		                        <span class="bs2"></span>
+		                    </section>
+		                    <header class="post-header">
+		                        <h2 class="post-title"><a href="../TeacherInfo/TeacherInfo.php">老师6</a></h2>
+		                    </header>
+		                    <section class="post-content">
+		                      
+								<p><img src="/LocalProject/Public/Image/img3.jpg" alt="��ʦ1"></p>
+	
+		                    </section>
+		                </article>
+		            </div> 
+		        </div>
+		        
+		        <nav class="pagination">    
+			    	<span class="page-number">第1页/共7页</span>
+			        <a class="older-posts" href="__URL__/index">下一页 →</a>
+				</nav>			
+		    </div>
+		</main>		
+		</div>
+		
+		<footer>
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-xs-12">
+		                <div class="submit">
+		                    <p class="text-center">感谢您关注清华大学第14届良师益友评选活动<a href="mailto:admin@bootcss.com"></a></p>
+		                    <p class="text-center">如有任何疑问，请联系清华大学研究生会学术部良师益友组</p>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
+		    
+		<script src="/LocalProject/Public/Js/jquery.min.js"></script>
+		<script src="/LocalProject/Public/Js/bootstrap.min.js"></script>
+		<script src="/LocalProject/Public/Js/jquery.lazyload.min.js"></script>
+		<script src="/LocalProject/Public/Js/jquery.magnific-popup.min.js"></script>	
+		<script type="text/javascript" src="/LocalProject/Public/Js/index.min.js"></script>
+		
+	    <!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<script>
+	        
+	   
+			</script>
+			</div>
+	    <!-- /.modal -->
+	</body>
+
+</html>
+ 

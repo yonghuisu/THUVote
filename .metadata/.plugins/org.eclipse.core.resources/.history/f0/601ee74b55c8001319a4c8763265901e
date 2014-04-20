@@ -1,0 +1,10 @@
+<FORM method="post" action="__URL__/update">
+<volist name="data" id = "vo">
+    <INPUT type="hidden" name="id" value = "{$vo.id}"><br/>
+学号：<INPUT type="text" name="student_no" value = "{$vo.student_no}"><br/>
+姓名：<INPUT type="text" name="student_name" value="{$vo.student_name}"><br/>
+教师id<INPUT type="text" name = "teacher_id" value="{$vo.teacher_id}"><br/>
+教师姓名<INPUT type="text" name = "teacher_name" value="{$vo.teacher_name}"><br/>
+</volist>
+ <INPUT type="submit" value="保存">
+ </FORM>

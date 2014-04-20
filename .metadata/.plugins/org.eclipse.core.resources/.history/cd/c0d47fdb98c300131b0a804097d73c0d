@@ -1,0 +1,12 @@
+<?php
+return array(
+	//数据库配置信息
+	'DB_TYPE' => 'mysql',//数据库类型
+	'DB_HOST' => 'localhost',
+		'DB_NAME' => 'THUvote',
+		'DB_USER'=>'root',
+		'DB_PED' =>'',
+		'DB_PORT' =>'8080',
+		'DB_PREFIX'=>'think_',
+		
+);

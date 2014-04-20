@@ -1,0 +1,4 @@
+1.修改weixin/index.php文件名为index.php.bak  
+2.将该目录下的index.php复制到weixin文件夹内
+3.进入微信后台再次验证，保证URL能访问到，TOKEN值微信后台与配置一致。
+4.验证成功后删除weixin/index.php，恢复index.php.bak为index.php。
